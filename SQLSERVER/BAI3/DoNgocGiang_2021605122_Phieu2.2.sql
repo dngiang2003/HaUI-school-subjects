@@ -78,7 +78,12 @@ select * from Students
 where StudentID in (select StudentID from Mark
 					where SubjectID = 'S001' and Theory < 10 and Date = 6/5/2008)
 
--- 4.7 Hiển thị tổng số sinh viên không đạt lý thuyết môn S001. (theory <10)select count(StudentID) as 'So hoc sinh' from Markwhere SubjectID = 'S001' and Theory < 10-- 4.8 Hiển thị Danh sách sinh viên học lớp AV1 và sinh sau ngày 1/1/1980select * from Students
+-- 4.7 Hiển thị tổng số sinh viên không đạt lý thuyết môn S001. (theory <10)
+select count(StudentID) as 'So hoc sinh' from Mark
+where SubjectID = 'S001' and Theory < 10
+
+-- 4.8 Hiển thị Danh sách sinh viên học lớp AV1 và sinh sau ngày 1/1/1980
+select * from Students
 where DateofBirth = '1/1/1980' and Class = 'AV1'
 
 -- 4.9 Xoá sinh viên có mã AV0807011
