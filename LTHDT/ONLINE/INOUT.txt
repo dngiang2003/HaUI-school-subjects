@@ -1,0 +1,20 @@
+
+Thong tin tam gia P:
+
+Canh a = 1
+
+Canh b = 2
+
+Canh c = 3
+
+Chu vi = 1 + 2 + 3 = 6
+
+Thong tin tam gia Q:
+
+Canh a = 4
+
+Canh b = 5
+
+Canh c = 6
+
+Chu vi = 4 + 5 + 6 = 15
