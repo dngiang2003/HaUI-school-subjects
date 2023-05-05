@@ -18,6 +18,7 @@ typedef Node *TRO;
 void KhoiTao(TRO &L){
 	L = NULL;
 }
+
 int Length(TRO L){
 	int n = 0;
 	TRO Q = L;
