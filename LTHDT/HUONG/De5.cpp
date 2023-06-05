@@ -56,7 +56,8 @@ ostream& operator << (ostream& out, TTB2 z) {
 
 int main() {
 	TTB2 x(-1, -2, -3);
-	TTB2 y(4, 5, 6);
+	TTB2 y(-4, -5, -6);
+	cout << "Tam thuc x ban dau la: " << x << endl;
 	x = !x;
 	cout << "Tam thuc x sau khi doi dau la: " << x << endl;
 	TTB2 t = x + y;
